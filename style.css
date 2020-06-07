@@ -1,0 +1,16 @@
+.safe
+{
+    color: green;
+}
+.warning
+{
+    color: red;
+}
+.safeborder
+{
+    border-color: green;
+}
+.warningborder
+{
+    border-color: red;
+}

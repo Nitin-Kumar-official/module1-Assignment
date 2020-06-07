@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyModule">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="angular.min.js"></script>
+    <script src="App.js"></script>
+    <title>Lunch Checker</title>
+    
+</head>
+<body>
+    <div class="Container">
+    <h1>Lunch Checker</h1>
+        <div ng-controller="LunchCheckController">
+            <input ng-class="{{'StyleForTextBox'}}" type="text" ng-model="List">
+            <button ng-click="CheckList();">Check If Too Much</button>
+            <br>
+        <p ng-class="{{'StyleForMessage'}}">{{Message}}</p>
+            <br>
+        </div>
+    </div>
+</body>
+</html>
