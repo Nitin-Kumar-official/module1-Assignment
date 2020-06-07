@@ -1,5 +1,5 @@
-# module1-Assignment
-from the zip file,first Extract all the file and place them is same folder then open
+# Module1-Assignment
+
 
 Thank you
 Nitin
